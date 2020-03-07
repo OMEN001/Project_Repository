@@ -1,0 +1,13 @@
+ Mon, 02 Mar 2020 16:29:28  INFO test_login.py test_success_login [ line:32 ] 登录功能 - 正常场景用例：输入正确的用户名登录成功
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-02 16:29:28.753456,结束时间为:2020-03-02 16:29:28.776420,一共等待耗时为:0:00:00.022964
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-02 16:29:28.865639,结束时间为:2020-03-02 16:29:28.886736,一共等待耗时为:0:00:00.021097
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-02 16:29:28.946571,结束时间为:2020-03-02 16:29:28.970231,一共等待耗时为:0:00:00.023660
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 02 Mar 2020 16:29:28  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 

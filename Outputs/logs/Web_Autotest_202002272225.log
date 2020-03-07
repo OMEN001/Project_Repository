@@ -1,0 +1,319 @@
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:25:31.365334,结束时间为:2020-02-27 22:25:31.384374,一共等待耗时为:0:00:00.019040
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:25:31.470487,结束时间为:2020-02-27 22:25:31.481555,一共等待耗时为:0:00:00.011068
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:25:31.544898,结束时间为:2020-02-27 22:25:31.560520,一共等待耗时为:0:00:00.015622
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:25:31  INFO test_invest.py test_invest_failed_invalid_money [ line:68 ] 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非100的整数倍、错误的格式等
+ Thu, 27 Feb 2020 22:25:31  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Thu, 27 Feb 2020 22:26:01  ERROR basepage.py wait_page_contains_element [ line:58 ] 等待元素存在失败：
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 55, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Feb 2020 22:26:02  INFO basepage.py save_page_screenshot [ line:176 ] 截取当前网页成功并存储在: E:\Web_Auto_Unittest\Outputs/screenshots/标页面_获取用户余额_2020-02-27 22_26_01.png
+ Thu, 27 Feb 2020 22:26:15  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:26:15  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:26:15.966877,结束时间为:2020-02-27 22:26:15.988274,一共等待耗时为:0:00:00.021397
+ Thu, 27 Feb 2020 22:26:15  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:26:15  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:26:16  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:26:16  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:26:16.060823,结束时间为:2020-02-27 22:26:16.086318,一共等待耗时为:0:00:00.025495
+ Thu, 27 Feb 2020 22:26:16  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:26:16  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:26:16  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:26:16  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:26:16.128083,结束时间为:2020-02-27 22:26:16.143704,一共等待耗时为:0:00:00.015621
+ Thu, 27 Feb 2020 22:26:16  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:26:16  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:26:16  INFO test_invest.py test_invest_failed_invalid_money [ line:68 ] 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非100的整数倍、错误的格式等
+ Thu, 27 Feb 2020 22:26:16  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Thu, 27 Feb 2020 22:26:46  ERROR basepage.py wait_page_contains_element [ line:58 ] 等待元素存在失败：
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 55, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Feb 2020 22:26:46  INFO basepage.py save_page_screenshot [ line:176 ] 截取当前网页成功并存储在: E:\Web_Auto_Unittest\Outputs/screenshots/标页面_获取用户余额_2020-02-27 22_26_46.png
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:26:59.734563,结束时间为:2020-02-27 22:26:59.755578,一共等待耗时为:0:00:00.021015
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:26:59.846830,结束时间为:2020-02-27 22:26:59.867509,一共等待耗时为:0:00:00.020679
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:26:59.913569,结束时间为:2020-02-27 22:26:59.929225,一共等待耗时为:0:00:00.015656
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:26:59  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:27:00  INFO test_invest.py test_invest_failed_invalid_money [ line:68 ] 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非100的整数倍、错误的格式等
+ Thu, 27 Feb 2020 22:27:00  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Thu, 27 Feb 2020 22:27:30  ERROR basepage.py wait_page_contains_element [ line:58 ] 等待元素存在失败：
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 55, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Feb 2020 22:27:30  INFO basepage.py save_page_screenshot [ line:176 ] 截取当前网页成功并存储在: E:\Web_Auto_Unittest\Outputs/screenshots/标页面_获取用户余额_2020-02-27 22_27_30.png
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:27:45.530099,结束时间为:2020-02-27 22:27:45.551051,一共等待耗时为:0:00:00.020952
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:27:45.639665,结束时间为:2020-02-27 22:27:45.657626,一共等待耗时为:0:00:00.017961
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:27:45.719965,结束时间为:2020-02-27 22:27:45.735588,一共等待耗时为:0:00:00.015623
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:27:45  INFO test_invest.py test_invest_failed_invalid_money [ line:68 ] 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非100的整数倍、错误的格式等
+ Thu, 27 Feb 2020 22:27:45  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Thu, 27 Feb 2020 22:28:15  ERROR basepage.py wait_page_contains_element [ line:58 ] 等待元素存在失败：
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 55, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Feb 2020 22:28:16  INFO basepage.py save_page_screenshot [ line:176 ] 截取当前网页成功并存储在: E:\Web_Auto_Unittest\Outputs/screenshots/标页面_获取用户余额_2020-02-27 22_28_15.png
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:28:29.262653,结束时间为:2020-02-27 22:28:29.283567,一共等待耗时为:0:00:00.020914
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:28:29.379968,结束时间为:2020-02-27 22:28:29.388163,一共等待耗时为:0:00:00.008195
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:28:29.453485,结束时间为:2020-02-27 22:28:29.474829,一共等待耗时为:0:00:00.021344
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:28:29  INFO test_invest.py test_invest_failed_no_invalid_money [ line:89 ] 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非数字的字符、符号等
+ Thu, 27 Feb 2020 22:28:29  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Thu, 27 Feb 2020 22:28:59  ERROR basepage.py wait_page_contains_element [ line:58 ] 等待元素存在失败：
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 55, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Feb 2020 22:29:00  INFO basepage.py save_page_screenshot [ line:176 ] 截取当前网页成功并存储在: E:\Web_Auto_Unittest\Outputs/screenshots/标页面_获取用户余额_2020-02-27 22_28_59.png
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:29:13.509306,结束时间为:2020-02-27 22:29:13.527337,一共等待耗时为:0:00:00.018031
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:29:13.623743,结束时间为:2020-02-27 22:29:13.631469,一共等待耗时为:0:00:00.007726
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:29:13.699949,结束时间为:2020-02-27 22:29:13.700883,一共等待耗时为:0:00:00.000934
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:29:13  INFO test_invest.py test_invest_failed_no_invalid_money [ line:89 ] 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非数字的字符、符号等
+ Thu, 27 Feb 2020 22:29:13  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Thu, 27 Feb 2020 22:29:44  ERROR basepage.py wait_page_contains_element [ line:58 ] 等待元素存在失败：
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 55, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Feb 2020 22:29:44  INFO basepage.py save_page_screenshot [ line:176 ] 截取当前网页成功并存储在: E:\Web_Auto_Unittest\Outputs/screenshots/标页面_获取用户余额_2020-02-27 22_29_44.png
+ Thu, 27 Feb 2020 22:29:58  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:29:58  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:29:58.829633,结束时间为:2020-02-27 22:29:58.847690,一共等待耗时为:0:00:00.018057
+ Thu, 27 Feb 2020 22:29:58  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:29:58  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:29:58  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:29:58  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:29:58.940590,结束时间为:2020-02-27 22:29:58.951617,一共等待耗时为:0:00:00.011027
+ Thu, 27 Feb 2020 22:29:58  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:29:58  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:29:59  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:29:59  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:29:59.014265,结束时间为:2020-02-27 22:29:59.029887,一共等待耗时为:0:00:00.015622
+ Thu, 27 Feb 2020 22:29:59  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:29:59  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:29:59  INFO test_invest.py test_invest_failed_no_invalid_money [ line:89 ] 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非数字的字符、符号等
+ Thu, 27 Feb 2020 22:29:59  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Thu, 27 Feb 2020 22:30:29  ERROR basepage.py wait_page_contains_element [ line:58 ] 等待元素存在失败：
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 55, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Feb 2020 22:30:29  INFO basepage.py save_page_screenshot [ line:176 ] 截取当前网页成功并存储在: E:\Web_Auto_Unittest\Outputs/screenshots/标页面_获取用户余额_2020-02-27 22_30_29.png
+ Thu, 27 Feb 2020 22:30:42  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:30:42  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:30:42.876484,结束时间为:2020-02-27 22:30:42.897506,一共等待耗时为:0:00:00.021022
+ Thu, 27 Feb 2020 22:30:42  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:30:42  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:30:42  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:30:42  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:30:42.979765,结束时间为:2020-02-27 22:30:42.994850,一共等待耗时为:0:00:00.015085
+ Thu, 27 Feb 2020 22:30:42  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:30:43  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:30:43  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:30:43  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:30:43.043191,结束时间为:2020-02-27 22:30:43.058815,一共等待耗时为:0:00:00.015624
+ Thu, 27 Feb 2020 22:30:43  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:30:43  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:30:43  INFO test_invest.py test_invest_failed_no_invalid_money [ line:89 ] 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非数字的字符、符号等
+ Thu, 27 Feb 2020 22:30:43  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Thu, 27 Feb 2020 22:31:13  ERROR basepage.py wait_page_contains_element [ line:58 ] 等待元素存在失败：
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 55, in wait_page_contains_element
+    WebDriverWait(self.driver, timeout, poll_fre).until(EC.presence_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Feb 2020 22:31:13  INFO basepage.py save_page_screenshot [ line:176 ] 截取当前网页成功并存储在: E:\Web_Auto_Unittest\Outputs/screenshots/标页面_获取用户余额_2020-02-27 22_31_13.png
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:31:26.351647,结束时间为:2020-02-27 22:31:26.372587,一共等待耗时为:0:00:00.020940
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:31:26.459095,结束时间为:2020-02-27 22:31:26.467502,一共等待耗时为:0:00:00.008407
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:31:26.529825,结束时间为:2020-02-27 22:31:26.545477,一共等待耗时为:0:00:00.015652
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:31:26  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:31:26  INFO test_invest.py test_invest_success [ line:40 ] 投资功能 - 正常场景用例：投资20000元成功。用户可用余额减少20000，标余额减少20000 
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_page_contains_element [ line:65 ] 等待结束.开始时间为2020-02-27 22:32:12.084665,结束时间为:2020-02-27 22:32:12.095635,一共等待耗时为:0:00:00.010970
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py get_element [ line:69 ] 标页面_获取用户余额 : 查找 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素.
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py get_element_attribute [ line:130 ] 标页面_获取用户余额: 获取 ('xpath', '//input[@class="form-control invest-unit-investinput"]')  元素的属性 data-amount.
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py get_element_attribute [ line:140 ] 获取的属性值为: 907695207.63
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_ele_visible [ line:33 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:32:12.106730,结束时间为:2020-02-27 22:32:12.125701,一共等待耗时为:0:00:00.018971
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py get_element [ line:69 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py get_element_text [ line:113 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 183.68
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_ele_visible [ line:33 ] 标页面_输入框当中输入投资金额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素可见
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:32:12.141656,结束时间为:2020-02-27 22:32:12.158330,一共等待耗时为:0:00:00.016674
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py get_element [ line:69 ] 标页面_输入框当中输入投资金额 : 查找 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素.
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py input_text [ line:85 ] 标页面_输入框当中输入投资金额: 对 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素输入文本 1000
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_ele_visible [ line:33 ] 标页面_提交投资操作 : 等待 ('xpath', '// button[text() = "投标"]') 元素可见
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:32:12.214659,结束时间为:2020-02-27 22:32:12.234606,一共等待耗时为:0:00:00.019947
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py get_element [ line:69 ] 标页面_提交投资操作 : 查找 ('xpath', '// button[text() = "投标"]') 元素.
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py click_element [ line:99 ] 标页面_提交投资操作: 点击 ('xpath', '// button[text() = "投标"]') 元素 
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_ele_visible [ line:33 ] 标页面_投资成功的提示框 - 点击查看并激活 : 等待 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素可见
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:32:12.274988,结束时间为:2020-02-27 22:32:12.791949,一共等待耗时为:0:00:00.516961
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py get_element [ line:69 ] 标页面_投资成功的提示框 - 点击查看并激活 : 查找 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素.
+ Thu, 27 Feb 2020 22:32:12  INFO basepage.py click_element [ line:99 ] 标页面_投资成功的提示框 - 点击查看并激活: 点击 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素 
+ Thu, 27 Feb 2020 22:33:07  INFO test_login.py test_error_passwd_login [ line:48 ] 登录功能 - 异常场景用例：输入错误的用户密码登录失败
+ Thu, 27 Feb 2020 22:33:07  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:33:07  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:07.841854,结束时间为:2020-02-27 22:33:07.865698,一共等待耗时为:0:00:00.023844
+ Thu, 27 Feb 2020 22:33:07  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:33:07  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:33:07  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:33:07  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:07.951598,结束时间为:2020-02-27 22:33:07.963649,一共等待耗时为:0:00:00.012051
+ Thu, 27 Feb 2020 22:33:07  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:33:07  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 111111111111
+ Thu, 27 Feb 2020 22:33:08  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:33:08  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:08.040456,结束时间为:2020-02-27 22:33:08.056110,一共等待耗时为:0:00:00.015654
+ Thu, 27 Feb 2020 22:33:08  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:33:08  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:33:08  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="layui-layer-content"]') 元素可见
+ Thu, 27 Feb 2020 22:33:08  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:08.137990,结束时间为:2020-02-27 22:33:08.649956,一共等待耗时为:0:00:00.511966
+ Thu, 27 Feb 2020 22:33:08  INFO basepage.py get_element [ line:69 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="layui-layer-content"]') 元素.
+ Thu, 27 Feb 2020 22:33:08  INFO basepage.py get_element_text [ line:113 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="layui-layer-content"]')  元素的文本内容.
+ Thu, 27 Feb 2020 22:33:08  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 帐号或密码错误!
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:22.188484,结束时间为:2020-02-27 22:33:22.205783,一共等待耗时为:0:00:00.017299
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:22.259219,结束时间为:2020-02-27 22:33:22.269343,一共等待耗时为:0:00:00.010124
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:22.346485,结束时间为:2020-02-27 22:33:22.363564,一共等待耗时为:0:00:00.017079
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_页面中间错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:22.410177,结束时间为:2020-02-27 22:33:22.415231,一共等待耗时为:0:00:00.005054
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py get_element [ line:69 ] 登陆页面_页面中间错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py get_element_text [ line:113 ] 登陆页面_页面中间错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Thu, 27 Feb 2020 22:33:22  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 请输入手机号
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:35.596245,结束时间为:2020-02-27 22:33:35.615920,一共等待耗时为:0:00:00.019675
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:35.716560,结束时间为:2020-02-27 22:33:35.726773,一共等待耗时为:0:00:00.010213
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:35.768476,结束时间为:2020-02-27 22:33:35.784099,一共等待耗时为:0:00:00.015623
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_页面中间错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:35.852333,结束时间为:2020-02-27 22:33:35.858794,一共等待耗时为:0:00:00.006461
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py get_element [ line:69 ] 登陆页面_页面中间错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py get_element_text [ line:113 ] 登陆页面_页面中间错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Thu, 27 Feb 2020 22:33:35  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 请输入密码
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:49.036543,结束时间为:2020-02-27 22:33:49.057483,一共等待耗时为:0:00:00.020940
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 1868472055
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:49.142353,结束时间为:2020-02-27 22:33:49.150698,一共等待耗时为:0:00:00.008345
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:49.222053,结束时间为:2020-02-27 22:33:49.227122,一共等待耗时为:0:00:00.005069
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_页面中间错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:33:49.337739,结束时间为:2020-02-27 22:33:49.345109,一共等待耗时为:0:00:00.007370
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py get_element [ line:69 ] 登陆页面_页面中间错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py get_element_text [ line:113 ] 登陆页面_页面中间错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Thu, 27 Feb 2020 22:33:49  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 请输入正确的手机号
+ Thu, 27 Feb 2020 22:34:02  INFO test_login.py test_no_login [ line:42 ] 登录功能 - 异常场景用例：输入不存在用户名登录失败
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:34:02.125711,结束时间为:2020-02-27 22:34:02.144731,一共等待耗时为:0:00:00.019020
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720554
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:34:02.230415,结束时间为:2020-02-27 22:34:02.248518,一共等待耗时为:0:00:00.018103
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:34:02.299785,结束时间为:2020-02-27 22:34:02.321796,一共等待耗时为:0:00:00.022011
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="layui-layer-content"]') 元素可见
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:34:02.370665,结束时间为:2020-02-27 22:34:02.879998,一共等待耗时为:0:00:00.509333
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py get_element [ line:69 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="layui-layer-content"]') 元素.
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py get_element_text [ line:113 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="layui-layer-content"]')  元素的文本内容.
+ Thu, 27 Feb 2020 22:34:02  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 此账号没有经过授权，请联系管理员!
+ Thu, 27 Feb 2020 22:34:15  INFO test_login.py test_success_login [ line:32 ] 登录功能 - 正常场景用例：输入正确的用户名登录成功
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:34:15.735955,结束时间为:2020-02-27 22:34:15.755490,一共等待耗时为:0:00:00.019535
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:34:15.848902,结束时间为:2020-02-27 22:34:15.869566,一共等待耗时为:0:00:00.020664
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:34:15.910568,结束时间为:2020-02-27 22:34:15.941661,一共等待耗时为:0:00:00.031093
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:34:15  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 

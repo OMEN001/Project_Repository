@@ -1,0 +1,120 @@
+ Thu, 27 Feb 2020 22:56:31  INFO test_login.py test_error_passwd_login [ line:48 ] 登录功能 - 异常场景用例：输入错误的用户密码登录失败
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:56:31.388614,结束时间为:2020-02-27 22:56:31.411854,一共等待耗时为:0:00:00.023240
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:56:31.514185,结束时间为:2020-02-27 22:56:31.524299,一共等待耗时为:0:00:00.010114
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 111111111111
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:56:31.600648,结束时间为:2020-02-27 22:56:31.616270,一共等待耗时为:0:00:00.015622
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:56:31  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="layui-layer-content"]') 元素可见
+ Thu, 27 Feb 2020 22:56:32  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:56:31.675209,结束时间为:2020-02-27 22:56:32.186245,一共等待耗时为:0:00:00.511036
+ Thu, 27 Feb 2020 22:56:32  INFO basepage.py get_element [ line:69 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="layui-layer-content"]') 元素.
+ Thu, 27 Feb 2020 22:56:32  INFO basepage.py get_element_text [ line:113 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="layui-layer-content"]')  元素的文本内容.
+ Thu, 27 Feb 2020 22:56:32  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 帐号或密码错误!
+ Thu, 27 Feb 2020 22:57:05  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:57:05  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:57:05.926884,结束时间为:2020-02-27 22:57:05.949712,一共等待耗时为:0:00:00.022828
+ Thu, 27 Feb 2020 22:57:05  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:57:05  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:57:05  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:57:06.012997,结束时间为:2020-02-27 22:57:06.034039,一共等待耗时为:0:00:00.021042
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:57:06.068415,结束时间为:2020-02-27 22:57:06.091438,一共等待耗时为:0:00:00.023023
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_页面中间错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:57:06.139102,结束时间为:2020-02-27 22:57:06.158297,一共等待耗时为:0:00:00.019195
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py get_element [ line:69 ] 登陆页面_页面中间错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py get_element_text [ line:113 ] 登陆页面_页面中间错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Thu, 27 Feb 2020 22:57:06  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 请输入密码
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:57:28.684174,结束时间为:2020-02-27 22:57:28.708743,一共等待耗时为:0:00:00.024569
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 1868472055
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:57:28.770713,结束时间为:2020-02-27 22:57:28.793650,一共等待耗时为:0:00:00.022937
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:57:28.845590,结束时间为:2020-02-27 22:57:28.868305,一共等待耗时为:0:00:00.022715
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_页面中间错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:57:28.911185,结束时间为:2020-02-27 22:57:28.929111,一共等待耗时为:0:00:00.017926
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py get_element [ line:69 ] 登陆页面_页面中间错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py get_element_text [ line:113 ] 登陆页面_页面中间错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Thu, 27 Feb 2020 22:57:28  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 请输入正确的手机号
+ Thu, 27 Feb 2020 22:57:41  INFO test_login.py test_no_login [ line:42 ] 登录功能 - 异常场景用例：输入不存在用户名登录失败
+ Thu, 27 Feb 2020 22:57:41  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:57:41  ERROR basepage.py wait_ele_visible [ line:40 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 37, in wait_ele_visible
+    WebDriverWait(self.driver,timeout,poll_fre).until(EC.visibility_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+
+ Thu, 27 Feb 2020 22:57:41  ERROR basepage.py save_page_screenshot [ line:174 ] 当前网页截图失败
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 37, in wait_ele_visible
+    WebDriverWait(self.driver,timeout,poll_fre).until(EC.visibility_of_element_located(locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Web_Auto_Unittest\Common\basepage.py", line 172, in save_page_screenshot
+    self.driver.save_screenshot(screenshot_path)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+

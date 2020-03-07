@@ -1,0 +1,18 @@
+ Thu, 27 Feb 2020 22:51:55  INFO test_login.py test_error_passwd_login [ line:48 ] 登录功能 - 异常场景用例：输入错误的用户密码登录失败
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:51:55.587161,结束时间为:2020-02-27 22:51:55.610099,一共等待耗时为:0:00:00.022938
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:51:55.699839,结束时间为:2020-02-27 22:51:55.714550,一共等待耗时为:0:00:00.014711
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 111111111111
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:51:55.784564,结束时间为:2020-02-27 22:51:55.810654,一共等待耗时为:0:00:00.026090
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Thu, 27 Feb 2020 22:51:55  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="layui-layer-content"]') 元素可见
+ Thu, 27 Feb 2020 22:51:56  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-02-27 22:51:55.871097,结束时间为:2020-02-27 22:51:56.376657,一共等待耗时为:0:00:00.505560
+ Thu, 27 Feb 2020 22:51:56  INFO basepage.py get_element [ line:69 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="layui-layer-content"]') 元素.
+ Thu, 27 Feb 2020 22:51:56  INFO basepage.py get_element_text [ line:113 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="layui-layer-content"]')  元素的文本内容.
+ Thu, 27 Feb 2020 22:51:56  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 帐号或密码错误!
