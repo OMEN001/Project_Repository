@@ -185,5 +185,7 @@ print(new_list)
 # res = fuc()
 # print(res)
 
+print("hello world")
+
 
 
