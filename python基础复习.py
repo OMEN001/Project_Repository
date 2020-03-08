@@ -186,6 +186,6 @@ print(new_list)
 # print(res)
 
 print("hello world")
-print("今天心情不太好")
+
 
 
